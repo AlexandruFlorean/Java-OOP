@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Please enter the number:");
         int n = scanner.nextInt();
         System.out.println("The divisors of the number is:");
-        for(int div = n; div > 0; div--) {
+        for (int div = n; div > 0; div--) {
             if (n % div == 0)
                 System.out.println(div);
         }

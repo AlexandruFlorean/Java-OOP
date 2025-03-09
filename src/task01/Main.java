@@ -12,7 +12,7 @@ public class Main {
     }
 
     private static int simple_Factorial(int n) {
-        if(n == 1)
+        if (n == 1)
             return n;
         return n * simple_Factorial(--n);
     }
