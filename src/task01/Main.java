@@ -10,7 +10,8 @@ public class Main {
         System.out.printf("The entered number is: %d \n", n);
         System.out.printf("The factorial of the entered number is: %d", simple_Factorial(n));
     }
-    public static int simple_Factorial(int n) {
+
+    private static int simple_Factorial(int n) {
         if(n == 1)
             return n;
         return n * simple_Factorial(--n);

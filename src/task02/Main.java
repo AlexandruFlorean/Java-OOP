@@ -11,7 +11,7 @@ public class Main {
         System.out.printf("The greatest common divisor is: %d", gcd(a, b));
     }
 
-    public static int gcd(int a, int b) {
+    private static int gcd(int a, int b) {
         return b == 0 ? a : gcd(b, a % b);
     }
 }

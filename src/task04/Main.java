@@ -26,7 +26,7 @@ public class Main {
         }
     }
 
-    public static boolean prime_Number(int a) {
+    private static boolean prime_Number(int a) {
         if (a < 2)
             return false;
         for (int i = 2; i < a; i++) {
